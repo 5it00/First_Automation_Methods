@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test_Methods by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-family(failed)">
+    <groups>
+      <run>
+        <include name="family"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Methods.Github">
+        <methods>
+          <include name="testtitle"/>
+        </methods>
+      </class> <!-- Methods.Github -->
+    </classes>
+  </test> <!-- GRP-family(failed) -->
+</suite> <!-- Failed suite [Test_Methods by groups] -->
